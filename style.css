@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.container {
+    height: 300px;
+    padding: 2% 4%;
+    background-color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.pDescr {
+    width: 100%;
+    display: block;
+}
+
+.btnMensagem {
+    width: 50%;
+    margin: 20px 0 40px;
+    background-color: rgb(12, 4, 4);
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+#pFrase {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btnNeon {
+    font-size: 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.ligarNeon {
+    background-color: aqua;
+    box-shadow: 1px 1px 200px aqua;
+}
